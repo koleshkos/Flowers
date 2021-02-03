@@ -1,6 +1,8 @@
 # Flowers
 Flowers - интернет магазин цветов
 
+https://koleshkos.github.io/Flowers/
+
 # Development tools
 
 HTML
