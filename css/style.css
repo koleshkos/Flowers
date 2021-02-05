@@ -129,6 +129,8 @@ body {
     padding-left: 65px;
     padding-right: 65px;
     margin-top: 36px;
+    cursor: pointer;
+    border: none;
 }
 
 .reviews {
@@ -139,6 +141,10 @@ body {
 .review-slide {
     padding-left: 60px;
     padding-right: 60px;
+}
+
+.reviews-slider {
+    margin-top: 98px;
 }
 
 .review-image {
@@ -193,7 +199,6 @@ body {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.3px;
-    margin-bottom: 98px;
 }
 
 .advantages {
@@ -214,4 +219,203 @@ body {
     line-height: 1.4;
     max-width: 270px;
     margin: auto;
+}
+
+.goods {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-description {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    border: 3px solid #ffffff;
+    padding: 33px 35px 30px 35px; 
+    margin-top: 27px;
+}
+
+.card-title {
+    margin-top: 23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card-label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+
+}
+
+.color-label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.color-input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -9 ;
+}
+
+.color-label.white {
+    background-color: #ffff;
+}
+
+.color-label.pink {
+    background-color: #ed366e;
+}
+
+.color-label.red {
+    background-color: #ff0000;
+}
+
+.color-label.biege {
+    background-color: #f7b496;
+}
+
+.color-label.blue {
+    background-color: #12129d;
+}
+
+.counter-input {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffff;
+    background-color: #292929;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.counter-button {
+    width: 40px;
+    height: 40px;
+    background-color: #292929;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffff;
+    border: none;
+}
+
+.card-button {
+    font-size: 14px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 10px;;
+    padding-right: 10px;
+}
+
+.more {
+    color: #f24841;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-top: 39px;
+    padding: 10px;
+}
+
+.more::after {
+    display: inline-block;
+    content: '';
+    width: 10px;
+    height: 4px;
+    background: url('../img/caret.svg') no-repeat center;
+    margin-left: 14px;
+    vertical-align: middle;
+}
+
+.offer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.offer-link {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    margin-bottom: 65px;
+}
+
+.offer-label {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.offer-phone {
+    font-size: 36px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+    margin-bottom: 33px;
+}
+
+.footer-menu-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.footer-menu-item {
+    margin-right: 30px;
+}
+
+.social {
+    font-size: 16px;
+}
+
+.footer-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+.footer-phone {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.lower-footer {
+    display: block;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lower-footer-description {
+    color: #292929;
+}
+
+.lower-footer-info {
+    color: #292929;
+    font-size: 12px;
+}
+
+.lower-footer-link {
+    color: #292929;
 }
