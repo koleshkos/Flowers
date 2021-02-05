@@ -82,11 +82,13 @@ body {
 
 .hero-title {
     font-size: 34px;
+    margin: auto;
     margin-bottom: 34px;
     text-transform: uppercase;
     line-height: normal;
     letter-spacing: 0.43px;
     font-family: "Gotham Medium", sans-serif;
+    max-width: 652px;
 }
 
 .flowers-slider {
@@ -102,6 +104,8 @@ body {
     text-transform: uppercase;
     line-height: 1.4;
     margin-bottom: 87px;
+    margin: auto;
+    max-width: 590px;
 }
 
 :root {
@@ -431,4 +435,99 @@ body {
 
 .lower-footer-link {
     color: #292929;
+}
+
+.modal {
+    display: none;
+    color: #292929;
+    text-align: center;
+}
+
+.modal-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.modal-button {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+    .header-phone {
+        text-align: center;
+    }
+    .header-info {
+        text-align: center;
+    }
+    .callback {
+        text-align: center;
+    }
+    .hero {
+        padding-top: 50px;
+    }
+    .hero-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .colors {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .card-label {
+        max-width: 20px auto;
+        display: block;
+    }
+    .footer-info {
+        text-align: left;
+    }
+    .lower-footer {
+        text-align: center;
+    }
+
+    .lower-footer-info {
+        text-align: center;
+    }
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .sextion-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .offer-title {  
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .offer-link {
+        font-size: 24px;
+    }
+    .offer-phone {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-info, .offer-title, .offer {
+        text-align: left;
+    }
 }
