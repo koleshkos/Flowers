@@ -238,6 +238,12 @@ body {
     margin-top: 27px;
 }
 
+.card-image {
+    max-width: 88px;
+    max-height: 88px;
+    height: 78px;
+}
+
 .card-title {
     margin-top: 23px;
     margin-bottom: 20px;
@@ -283,6 +289,14 @@ body {
 
 .color-label.blue {
     background-color: #12129d;
+}
+
+.color-label.yellow {
+    background-color: yellow;
+}
+
+.color-label.orange {
+    background-color: orange;
 }
 
 .counter-input {
