@@ -239,8 +239,7 @@ body {
 }
 
 .card-image {
-    max-width: 88px;
-    max-height: 88px;
+    width: 88px;git
     height: 78px;
 }
 
